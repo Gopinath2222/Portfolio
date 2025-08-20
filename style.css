@@ -1,0 +1,92 @@
+
+body,ul
+{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+.navi
+{
+    padding:30px;
+    background:linear-gradient(to right, blue 10px  ,aqua);
+    box-shadow: 0px 0px 7px  #0233f7a3;
+}
+.ull{
+    margin-left: 55%;
+    display: inline-flex;
+    gap:30px;
+}
+.home_li{  
+    /* border:2px solid black; */
+    display:inline-flex;
+    background-color:blue;
+    padding: 5px;
+    border-radius: 3px;
+    color:aqua;
+    font-family:cursive;
+}
+.home_li:hover
+{
+    background-color:aquamarine;
+    color:black;
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+.bar
+{
+    text-decoration: none;
+}
+.icons {
+      font-size: 24px;
+      color: #444;
+      margin: 10px 5px;
+}
+.con_skill
+{
+    /* display:flex; */
+    margin: 0 10% 0 10%;
+    font-family:cursive;
+    padding:10px;
+    border-radius: 5px;
+    background-color:skyblue;
+}
+.con_skill:hover{
+    transition: 0.5s ease;
+    transform:scale(1.02);
+}
+.skill_t
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+b{
+ margin-bottom: 0;   
+}
+.skill{
+    margin-top:5px;
+    margin-bottom: 15px;
+}
+.skill_li
+{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.home_content
+{
+    margin: 10% 10% 0 10%;
+    font-family:Verdana, Geneva;
+    padding:10px;
+    border-radius: 5px;
+    background-color:skyblue;
+}
+.ab_content
+{
+    margin: 10% 10% 0 10%;
+    font-family:Verdana, Geneva;
+    padding:20px;
+    border-radius: 5px;
+    background-color:skyblue;
+}
