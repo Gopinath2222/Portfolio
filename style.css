@@ -45,14 +45,15 @@ body,ul
       color: #444;
       margin: 10px 5px;
 }
-.con_skill
+.con_skill1
 {
-    /* display:flex; */
-    margin: 0 10% 0 10%;
+    display:flex;
+/*     margin: 0 10% 0 10%; */
     font-family:cursive;
     padding:10px;
     border-radius: 5px;
-    background-color:skyblue;
+/*     background-color:skyblue; */
+    
 }
 .con_skill:hover{
     transition: 0.5s ease;
